@@ -3,9 +3,6 @@
    justify-content: center;
 }
 
-img{
-
-}
 
 #navigation{
     display: flex;
@@ -26,3 +23,54 @@ a{
     text-decoration: none;
     color: black;
 }
+
+img{
+    width: 100%;
+}
+
+.container{
+
+   position: relative;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10pt;
+    position:absolute;
+    left: 60%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    width: ;
+   
+   
+
+}
+
+h2{
+    font-family:'Anton', sans-serif;
+    font-size: 20pt;
+    line-height: 20px;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 23px 27px 20px ;
+    
+    
+    
+}
+
+span{
+   font-size: 20pt;
+   line-height: 20px;
+   font-weight: 400;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 12px 27px;
+   
+
+}
+
+
