@@ -74,6 +74,24 @@ span{
 }
 
 
+@media (max-width:394px) { 
+ #navigation{
+    display: flex;
+    justify-content: center;
+    gap: 10pt;
+
+ }  
+   #title{
+    display:flex;
+    align-items: center;
+   }
+
+   .container{
+
+   }
+   
+}
+
 
 
 
