@@ -37,6 +37,7 @@ span{
     color: white;
     margin-top: 35pt;
     background-color: black;
+    margin-bottom: 15pt;
 }
 
 #start{
@@ -45,19 +46,37 @@ span{
     
 }
 
- .container1,.container2,.container3 {
+.container1,.container2,.container3{
     display: flex;
-    gap: 25pt;
-    margin-top: 25pt;
     justify-content: center;
     
+    
+   
+}
+
+.container1,.container2 {
+    margin-bottom: 15pt;
+}
+
+h2{
+    width: 700px;
+    text-align: center;
+    padding-top: 50pt;
+    border-top: 3pt solid black;
+    border-right: 3pt solid black;
+    
+    margin: 0;
 }
 
 #gpic{
     border: 3pt solid black;
-    
-    
+    margin:0;
 }
 
-
-
+#content{
+    display: block;
+    text-align: center;
+    width: 700px;
+    border-right: 3pt solid black;
+    border-bottom: 3pt solid black;
+}
