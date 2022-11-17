@@ -1,0 +1,89 @@
+#title {
+    display: flex;
+   justify-content: center;
+}
+
+
+#navigation{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 30px;
+        
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 20pt;
+    font-weight: 400;
+    line-height: 14pt;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#top {
+    width: 340px;
+    height: 93px;
+}
+
+span{
+    display:flex;
+    justify-content: center;
+    padding: 15px 28px 12px;
+    font-size: 35px;
+    color: white;
+    margin-top: 35pt;
+    background-color: black;
+    margin-bottom: 15pt;
+}
+
+#start{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#userm{
+    resize: none;
+    height: 100pt;
+    text-align: center;
+    border: 2pt solid black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10pt;
+   
+}
+
+#name,#address,#email,#phone{
+    text-align: center;
+    height: 50pt;
+    border: 2pt solid black;
+}
+
+
+
+button{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: black;
+    height: 50pt;
+    font-size: 15px;
+}

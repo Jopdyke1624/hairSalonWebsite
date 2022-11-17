@@ -59,5 +59,77 @@ span{
     
 }
 
+@media (max-width:900px) {
+    .container1,.container2,.container3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+             
+       
+    }
+    #gpic{
+        width: 30%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content{
+        display: block;
+        text-align: center;
+        width: 100%;
+        border-right: 3pt solid black;
+        border-bottom: 3pt solid black;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+        padding-top: 50pt;
+        border-top: 3pt solid black;
+        border-right: 3pt solid black;
+        
+        margin: 0;
+    }
+   
+}
+
+@media (max-width:532px) {
+    #navigation{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 30px;
+            
+    }
+
+    #gpic{
+        width: 50%;
+        height: 50%;
+    }
+    
+    #content{
+        display: block;
+        text-align: center;
+        width: 100%;
+        border-right: 3pt solid black;
+        border-bottom: 3pt solid black;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+        padding-top: 50pt;
+        border-top: 3pt solid black;
+        border-right: 3pt solid black;
+        
+        margin: 0;
+    }
+    h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 12pt;
+        font-weight: 400;
+        line-height: 14pt;
+    }
+    
+
+}
 
 

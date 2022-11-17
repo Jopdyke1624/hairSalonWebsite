@@ -68,3 +68,34 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width:625px) {
+    .center{
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20pt;
+        border: 2pt solid black;
+        
+    }
+p{
+    display: block;
+    width: fit-content;
+}
+
+span{
+    display: block;
+    width: fit-content;
+    font-size: 20pt;
+}
+
+#navigation{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+        
+}
+
+}

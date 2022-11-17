@@ -42,6 +42,7 @@ img{
     left: 60%;
     top: 35%;
     transform: translate(-50%,-50%);
+   
     
    
    
@@ -73,30 +74,65 @@ span{
 
 }
 
-
-@media (max-width:394px) { 
- #navigation{
-    display: flex;
-    justify-content: center;
-    gap: 10pt;
-
- }  
-   #title{
-    display:flex;
-    align-items: center;
-   }
-
-   .container{
-
-   }
-   
+@media (max-width:1086px) {
+    .text{
+        transform: translate(-30%,-30%); 
+    }
 }
 
+@media (max-width:691px) {
 
+    #title {
+        display: flex;
+       justify-content: center;
+    }
+    
+    
+    #navigation{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 30px;
+            
+    }
+    .text{
+        
+       
+    }
+    h2{
+        font-family:'Anton', sans-serif;
+        font-size: 8pt;
+        line-height: 8px;
+        font-weight: 400;
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 10px 10px 10px ;    
+        
+    }
+    span{
+        font-size: 8pt;
+        line-height: 8px;
+        font-weight: 400;
+         background-color: rgb(39, 39, 39);
+         color: white;
+         padding: 10px 10px;
+        
+     
+     }
+     .feature{
+        display: none;
+     }
+     body{
+        background-image: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/the-beacon.jpg);
+        background-repeat: no-repeat;
+        
+        
+     }
 
+     a{
+        color: black;
+     }
 
-
-
-
-
+}
 
